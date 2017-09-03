@@ -25,11 +25,9 @@ function Storage(nameStorage, init) {
 
     this.update = function (data) {
 
-
         localStorage.setItem(nameStorage, data);
 
         console.warn('Update: ' + nameStorage);
-
 
     }
 
