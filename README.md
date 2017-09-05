@@ -18,6 +18,6 @@ mySave.update('{"name":"Bob","city":"Boston"}');
 ```
 You can to load the contain too.
 ```js
-console.log(save.load());
+console.log(mySave.load());
 // display: '{"name":"Bob","city":"Boston"}'
 ```
